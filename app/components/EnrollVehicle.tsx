@@ -88,11 +88,15 @@ const EnrollVehicle = ({ vehicles}: any) => {
               <option value="" disabled selected>
                 Select Model
               </option>
-              {filteredModels.map((model: string) => (
-                <option key={model} value={model}>
-                  {model}
+                <option  value="A8">
+                  A8
                 </option>
-              ))}
+                <option  value="A9">
+                  A9
+                </option><option  value="A10">
+                  A10
+                </option>
+              
             </select>
           </div>
 
